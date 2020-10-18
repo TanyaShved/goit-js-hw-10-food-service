@@ -2,7 +2,7 @@
   "name": "goit-js-hw-10-food-service",
   "version": "1.0.0",
   "description": "Домашка 10",
-  "main": "index.js",
+  "main": "menu.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
@@ -37,7 +37,6 @@
     "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "postcss-loader": "^4.0.2",
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
