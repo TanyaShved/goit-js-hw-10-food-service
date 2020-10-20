@@ -5,8 +5,6 @@ import './styles.css';
 
 let menu = document.querySelector('.js-menu');
 
-console.log(menu);
-
 function createMenuCards(array) {
   const markup = array.map(ingredients => menuTemplate(ingredients)).join('');
   menu.insertAdjacentHTML('beforeend', markup);

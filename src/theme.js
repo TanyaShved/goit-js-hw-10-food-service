@@ -5,13 +5,13 @@ const Theme = {
 
 const refs = {
   body: document.querySelector('body'),
-  switch: document.querySelector('.js-switch-input'),
+  switch: document.querySelector('.theme-switch__toggle'),
 };
 
 refs.switch.addEventListener('change', setClassList);
 refs.switch.addEventListener('change', setLocalStorage);
 
-function setClassList(e) {
+function setClassList() {
   const check = refs.switch.checked;
 
   if (check) {
@@ -23,7 +23,7 @@ function setClassList(e) {
   }
 }
 
-function setLocalStorage(e) {
+function setLocalStorage() {
   const check = refs.switch.checked;
 
   if (check) {
